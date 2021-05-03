@@ -12,6 +12,8 @@ import FormGroup from '@material-ui/core/FormGroup';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import MyLog from '../image/MyLog.svg'
+import Image from 'next/image'
+import styles from '../../styles/Asd.module.css'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -53,20 +55,14 @@ export default function MenuAppBar() {
           {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton> */}
-          <div className={classes.title}>
-          <MyLog/>
+          <div >
+          
+          <MyLog className={styles.b}/>
           </div>
+          
           { 
             <div>
-              <IconButton
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleMenu}
-                color="inherit"
-              >
-                <AccountCircle />
-              </IconButton>
+            
               <Menu
                 id="menu-appbar"
                 anchorEl={anchorEl}

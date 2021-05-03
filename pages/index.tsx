@@ -49,8 +49,9 @@ const Home: React.FC<{ posts: Post[] }> = (props) => {
 // const les=posts.posts
 	return (
 		<div>
-		<MenuAppBar/>
+		<MenuAppBar/> 
 		<Slide />
+		
 		<div className={styles.container}>
 			<ul>
 				{posts.map((post,index) => {
