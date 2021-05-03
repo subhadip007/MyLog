@@ -14,6 +14,7 @@ a {
 * {
   box-sizing: border-box;
   max-width: 100%;
+  
 }
 
 img{
@@ -25,3 +26,27 @@ img{
   
   width: 100%;
 }
+
+.MuiAppBar-colorPrimary{
+  background-color:#F05945 !important;
+  
+}
+
+.MuiPaper-elevation4{
+  box-shadow: 0 0 0 0 !important;
+  -webkit-box-shadow: 0 !important;
+}
+
+.splide--slide {
+  padding: 0 !important;
+  height: 30em!important;
+  overflow: hidden;
+  /* width: 300%; */
+}
+
+/* .splide img{
+height:300%;
+width: auto;
+
+
+} */
